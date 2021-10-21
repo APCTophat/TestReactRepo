@@ -6,7 +6,7 @@ class Pokedex extends Component{
 render(){
     return(
         <div>
-             <h2>Pokedex</h2>
+             <h2>The Pokedex</h2>
              <h1>{this.props.isWinner ? "WINNER" : "LOSER"}</h1>
         <div className="Pokedex-cards">
             
